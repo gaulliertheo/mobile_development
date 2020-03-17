@@ -5,18 +5,35 @@ import java.util.ArrayList;
 public class ResponseDataArtist {
 
     private ArrayList<Artist> data;
-    private float total;
-    private String next;
 
+    // Getter Methods
     public ArrayList<Artist> getdata() {
         return data;
     }
+}
 
-    public float getTotal() {
-        return total;
+class Artist {
+
+    private String name;
+    private String link;
+    private String picture_big;
+    private String nb_album;
+    private String nb_fan;
+
+    // Getter Methods
+    public String getName() {
+        return name;
     }
-
-    public String getNext() {
-        return next;
+    public String getLink() {
+        return link;
+    }
+    public String getPicture_big() {
+        return picture_big;
+    }
+    public String getNb_album() {
+        return nb_album;
+    }
+    public String getNb_fan() {
+        return nb_fan;
     }
 }

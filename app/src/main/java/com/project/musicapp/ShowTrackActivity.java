@@ -50,6 +50,7 @@ public class ShowTrackActivity extends AppCompatActivity {
                         ObjectMapper mapper = new ObjectMapper();
                         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
                         ResponseDataTrack responseData;
+                        Log.d("RESPONSE", response.toString());
                         try {
                             responseData = mapper.readValue(response.toString(), ResponseDataTrack.class);
 
@@ -59,11 +60,11 @@ public class ShowTrackActivity extends AppCompatActivity {
                                 TextView titre = (TextView) findViewById(R.id.titre_track);
                                 titre.setText("Titre : " + p.getTitle());
 
-                                /* Log.d("RESPONSE", p.getAlbum().toString());
+                                //Log.d("RESPONSE", p.getAlbum().toString());
 
                                 // Modifie la cover
                                 new DownloadImageTask((ImageView) findViewById(R.id.cover_track))
-                                        .execute(p.getAlbum().getCover_big()); */
+                                        .execute(p.getAlbum().getCover_big());
 
                                 // Modifie le ranking Deezer
                                 TextView ranking = (TextView) findViewById(R.id.ranking_track);
