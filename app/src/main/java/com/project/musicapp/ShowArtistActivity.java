@@ -63,12 +63,10 @@ public class ShowArtistActivity extends AppCompatActivity {
                                 // Modifie le nombre de fans Spotify
                                 TextView nb_fan = (TextView) findViewById(R.id.nb_fans_artist_spotify);
                                 nb_fan.setText(p.getFollowers().getTotal());
-                                Log.d("Response",p.getFollowers().getTotal());
-
 
                                 // Modifie le lien Spotify
                                 TextView link = (TextView) findViewById(R.id.link_artist_spotify);
-                                link.setText("Lien vers Spotify : " + responseData.getArtists().getHref());
+                                link.setText("Lien vers Spotify : " + p.getExternal_urls().getSpotify());
                             }
                         } catch (IOException e) {
 

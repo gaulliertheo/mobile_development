@@ -28,12 +28,14 @@
         android:id="@+id/link_artist_deezer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:autoLink="web" />
 
     <TextView
         android:id="@+id/link_artist_spotify"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:autoLink="web" />
 
     <LinearLayout
@@ -53,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="75dp"
-                android:text="Nombre de fans : " />
+                android:text="Nb de fans : " />
 
         </LinearLayout>
 

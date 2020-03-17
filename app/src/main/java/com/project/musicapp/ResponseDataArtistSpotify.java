@@ -25,11 +25,19 @@ class Artists {
 class Object {
 
     Followers followers;
+    External_urls external_urls;
 
     // Getter Methods
-    public Followers getFollowers() {
-        return followers;
-    }
+    public Followers getFollowers() { return followers; }
+    public External_urls getExternal_urls() { return external_urls; }
+}
+
+class External_urls {
+
+    private String spotify;
+
+    // Getter Methods
+    public String getSpotify() { return spotify; }
 }
 
 class Followers {
@@ -37,7 +45,5 @@ class Followers {
     private String total;
 
     // Getter Methods
-    public String getTotal() {
-        return total;
-    }
+    public String getTotal() { return total; }
 }
