@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <string name="text_bienvenue">Bienvenue sur ton application de MUSIQUE</string>
+    <string name="bouton_retour">Retour</string>
+    <string name="bouton_lancement">Lancez l\'application !</string>
+
+    <string-array name="titres">
+        <item>DEHORS DANS LA NIGHT</item>
+        <item>Week-end</item>
+        <item>Godzilla</item>
+        <item>Thank You God</item>
+        <item>Jcomprends pas</item>
+    </string-array>
+
+    <string-array name="artistes">
+        <item>Laylow</item>
+        <item>Timal</item>
+        <item>Eminem</item>
+        <item>F430</item>
+        <item>PNL</item>
+    </string-array>
+
+    <string-array name="albums">
+        <item>Trinity</item>
+        <item>Caliente</item>
+        <item> Music To Be Murdered By</item>
+        <item>Street Quality</item>
+        <item>Deux Freres</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Artistes</item>
+        <item>Titres</item>
+        <item>Albums</item>
+    </string-array>
+</resources>

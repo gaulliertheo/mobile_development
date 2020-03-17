@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_music"
+        android:title="Search my music"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/search_category"
+        android:title="Category for the search"
+        android:textColor="@color/colorPrimary"
+        android:icon="@android:drawable/spinner_dropdown_background"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always">
+    </item>
+</menu>
